@@ -11,6 +11,7 @@ import FooterBar from './components/ui/FooterBar'
 import CssBaseline from '@mui/material/CssBaseline'
 
 import Homepage from './pages/Homepage'
+import CustomersList from './pages/CustomersList'
 
 function App() {
   return (
@@ -30,6 +31,10 @@ function App() {
 
               <Routes>
                 <Route path="/" element={ <Homepage /> } />
+              </Routes>
+
+              <Routes>
+                <Route path="/customers" element={ <CustomersList /> } />
               </Routes>
 
             </Box>

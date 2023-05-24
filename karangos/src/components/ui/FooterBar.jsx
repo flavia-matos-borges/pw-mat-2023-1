@@ -7,7 +7,7 @@ export default function FooterBar() {
   return (
     <Toolbar 
       variant="dense" 
-      element="footer" 
+      component="footer" 
       sx={{ 
         backgroundColor: 'action.disabledBackground',
         justifyContent: 'center',
@@ -21,7 +21,7 @@ export default function FooterBar() {
       }}
     >
       <Typography variant="caption" sx={{ color: 'text.secondary' }}>
-          Desenvolvido com <CoffeeIcon fontSize='small'/> por <a href="flaviamatosborges@gamil.com">Flavia Matos</a>. Todos os direitos reservados.
+          Desenvolvido com <CoffeeIcon fontSize="small" /> por <a href="mailto:professor@faustocintra.com.br">Prof. Fausto Cintra</a>. Todos os direitos reservados.
       </Typography>
     </Toolbar>
   );
